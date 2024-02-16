@@ -130,7 +130,7 @@ int main(int argc, char* argv[]) {
     gst_object_unref(data.pipeline);
 
     return 0;
-};
+}
 
 // This function will be called by the pad-added signal
 static void pad_added_handler(GstElement* src, GstPad* new_pad, CustomData* data) {
